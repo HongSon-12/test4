@@ -58,12 +58,13 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-assets:
-  - assets/images/
-  - assets/images/setting
-  - asset/fonts
-  - asset/fonts/raleway
-  - asset/fonts/roboto
+  assets:
+    - assets/images/
+    - assets/images/setting
+    
+    - asset/fonts/
+    - asset/fonts/raleway
+    - asset/fonts/roboto
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
@@ -77,7 +78,7 @@ assets:
   # list giving the asset and other descriptors for the font. For
   # example:
   # fonts:
-  - fonts:
+  fonts:
     - family: raleway
       fonts :
         - asset: assets/fonts/raleway/Raleway-Bold.ttf
